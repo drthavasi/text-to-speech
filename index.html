@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text-to-Speech Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Text-to-Speech Converter</h1>
+      <textarea id="inputText" placeholder="Enter text"></textarea>
+      <button onclick="convertText()">Convert</button>
+      <table id="audioTable">
+        <thead>
+          <tr>
+            <th>S.No</th>
+            <th>Text Content</th>
+            <th>Play</th>
+          </tr>
+        </thead>
+        <tbody id="audioTableBody"></tbody>
+      </table>
+    </div>
+  </body>
+</html>
