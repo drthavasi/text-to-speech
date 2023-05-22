@@ -11,14 +11,6 @@ function createAudioRow(text) {
   textContentCell.textContent = text;
   audioRow.appendChild(textContentCell);
 
-//   var downloadCell = document.createElement("td");
-//   var downloadLink = document.createElement("a");
-//   downloadLink.textContent = "Download";
-//   downloadLink.href = generateAudioURL(text);
-//   downloadLink.download = "audio_" + Date.now() + ".wav";
-//   downloadCell.appendChild(downloadLink);
-//   audioRow.appendChild(downloadCell);
-
   var playCell = document.createElement("td");
   var playButton = document.createElement("button");
   playButton.textContent = "Play";
